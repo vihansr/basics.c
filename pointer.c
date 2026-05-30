@@ -6,8 +6,8 @@ void pointer_basic() {
 
     printf("Value of a: %d\n", a);
     printf("Address of a: %p\n", &a);
-    printf("Address of the pointing: %p\n", (void*)&pa);
-    printf("Value of pointer of a: %p\n", (void*)pa);
+    printf("Address of the pointer: %p\n", (void*)&pa);
+    printf("Value of the pointer: %p\n", (void*)pa);
     printf("Value the pointer is pointing to: %d\n", *pa);
 
 }
